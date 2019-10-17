@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.container {
+    width: 95%;
+    align-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    line-height: 2;
+    width: 100%
+
+}
+
+.nav a {
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+    justify-content: center;
+}
+
+a:hover {
+	color: lightblue;
+}
+header nav a {
+	text-decoration: none;
+	color: black;
+} 
+
+h1 {
+	font-size: 50px;
+	text-align: center; 
+	margin-top: 15%
+}
+#getStarted {
+	flex-direction: row;	
+}
+.row {
+	margin-top: 65px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.col {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.col2 {
+	display: flex;
+	justify-items: end;
+}
+
+
+button {
+	
+	background-color: white;
+	color: black;
+	border: 2px solid gray;
+	width: 100px;
+	height: 50px;
+  }
+
+
+hr {
+    visibility: visible;
+    border-bottom: 1px solid black;
+    width: 100%
+}
+
+.logo {
+    width: auto;
+    padding: 0%;
+    align-content: center;
+}
+
+.col2{
+    visibility: collapse;
+    height: 0px;
+}
+
+#getStarted {
+    align-items: center;
+}
+
+div.row {
+    flex-direction: column;
+    text-align: center;
+
+}
+
+h1 {
+    margin-top: 0%;
+}
+
+button {
+    width: 180px; 
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.top-left {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+
+}
+
+div.top-right {
+    margin-left: 0px;
+    width: 85%;
+}
+
+.middle-img {
+    width: 95%
+}
+
+.bottom-content {
+    flex-direction: column;
+    align-items: center;
+            width: 100%;
+    border-bottom: 1px solid black;
+
+}
+
+.content-box {
+    margin-bottom: 50px;
+    width: 100%;
+
+}
+
+.contact {
+    width: 100%;
+    margin: 35px 0px 35px 0px;
+    display: flex;
+    flex-direction: column;
+     align-items: start;
+
+}
+
+
+.option {
+    width: 98%
+}
+
+.categories {
+    flex-direction: column;
+  
+    align-content: center;
+    margin: 0;
+
+}
+
+.facts {
+    margin-top: 20px;
+}
+
+.bottom {
+   flex-direction: column-reverse;
+}
+
+.services-header-img {
+    width: 48%;
+}
+}
